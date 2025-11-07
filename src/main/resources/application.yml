@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: kotlin-firestore-jwt
+
+jwt:
+  secret: wP9xR7vTq2s8KfYh3jLmQ4nBz6uCeD1a
+  access-token-expiration: 900000       # 15 minutes
+  refresh-token-expiration: 604800000   # 7 days
